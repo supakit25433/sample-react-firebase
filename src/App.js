@@ -8,6 +8,13 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/login' component={Login} />
+          <Route path='/signup' component={Register} />
+        </Switch>
       </div>
     </Router>
   );
