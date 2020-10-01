@@ -19,6 +19,9 @@ function Header() {
                 <Link style={navStyle} to='/contact'>
                     <li>Contact</li>
                 </Link>
+                <Link style={navStyle} to='/shop'>
+                    <li>Shop</li>
+                </Link>
                 <Link style={navStyle} to='/login'>
                     <li>Login</li>
                 </Link>
